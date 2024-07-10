@@ -1,0 +1,5 @@
+
+# advanced-neuroML\nAn enhanced set of notebooks introducing neuroscientists to machine learning concepts.\n\nInstructions on using:\n\n1. Obtain a copy of this repository through cloning or downloading.\n2. Using the terminal, navigate into the repository directory.\n3. Initiate Docker:\n\n```
+docker run -it --rm  -v $PWD:/home/neuro/test -p 8888:8888 satra/ibro-workshop-2017\n```
+\n4. Launch Jupyter notebook:\n\n```
+$ jupyter-notebook --ip=*\n```\n\n5. Open up the provided URL in your local browser.\n\nPrimary resources for reference:\n- Access the [scikit-learn user guide](http://scikit-learn.org/stable/user_guide.html)\n- [Tutorial by Monte Lunacek](https://github.com/mlunacek/meetup_data_science_2016)\n- [Tutorial by Jake Vanderplas](https://github.com/jakevdp/sklearn_tutorial)\nAdministered by SofiaOrtegat
